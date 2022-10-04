@@ -2,6 +2,7 @@
 
 .filter__container{
     background-color: var(--background-cards);
+    background-color: #285702;
     width: 300px;
     display: flex;
     position: absolute;
@@ -18,7 +19,7 @@
 }
 .filter__list{
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
 }
 
