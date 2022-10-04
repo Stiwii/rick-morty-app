@@ -1,0 +1,77 @@
+.card {
+  background-color: var(--background-cards);
+  color: white;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 12px ;
+  overflow: hidden;
+}
+
+.card__header {
+  position: relative;
+}
+.card__img{
+  opacity: 0.95;
+}
+
+.card__conteiner-status{
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100px;
+  background-color: var(--background-cards);
+  padding: 6px;
+  border-radius: 0 10px 10px 0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.card__circle-status{
+  width: 12px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+.Dead{
+   background-color: red;
+}
+.Dead__img{
+  background-image: url('https://e7.pngegg.com/pngimages/617/322/png-clipart-skull-drawing-free-skull-s-white-face.png');
+  background-size: cover;
+}
+.unknown{
+  background-color: #aaa;
+}
+.unknown__img{
+  background-image: url('https://img2.freepng.es/20180810/bqj/kisspng-clip-art-computer-file-portable-network-graphics-s-question-mark-svg-png-icon-free-download-5-918-5b6d398601af54.0883592315338848060069.jpg');
+  background-size: cover;
+}
+.Alive{
+  background-color: green;
+}
+.Alive__img{
+
+}
+.card__body{
+  padding: 20px;
+}
+.card__name{
+  font-weight: 500;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+.card__list{
+  display: grid;
+  gap: 10px;
+}
+.card__item{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-weight: 500;
+}
+
+.card__span{
+  color: #ccc9;
+  transform: translateX(10px);
+}

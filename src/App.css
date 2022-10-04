@@ -1,0 +1,82 @@
+@font-face{
+    font-family: 'wifty';
+    src: local('get_schwifty'),
+    url('./fonts/get_schwifty.ttf') format('truetype');
+}
+
+.App{
+    max-width: 1620px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.app__title{
+    font-family: 'wifty';
+    font-size: 60px;
+    color: var(--inter-letter);
+    text-shadow:  -2px -2px 1px var(--blur-letter), 2px 2px 1px var(--blur-letter);
+    -webkit-text-stroke: 0.5px black;
+    padding: 20px;
+
+}
+.card__container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.button-53 {
+  background-color: var(--inter-letter);
+  border: 0 solid #E5E7EB;
+  box-sizing: border-box;
+  color: #000000;
+  text-shadow:   2px 2px 1px var(--blur-letter);
+  font-family: 'wifty';
+  font-size: 1rem;
+  font-weight: 700;
+
+  line-height: 1.75rem;
+  padding: .75rem 1.65rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-53:focus {
+  outline: 0;
+}
+
+.button-53:after {
+  content: '';
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.button-53:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-53 {
+    padding: .75rem 3rem;
+    font-size: 1.25rem;
+  }
+}

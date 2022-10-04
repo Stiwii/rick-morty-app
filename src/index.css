@@ -1,0 +1,38 @@
+/* ======== RESET =============*/
+:root{
+    --background-cards: #062226;
+    --background-body: #06292e;
+    --inter-letter: #14adc9;
+    --border-letter:  #1b5260;
+    --blur-letter: #d4d948;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: var(--background-body);
+    filter: brightness(1.1);
+    background-image: url('https://m.media-amazon.com/images/I/91OZQ+CzapL.jpg');
+    background-blend-mode: multiply;
+    color: white;
+}
+
+h1,h2,h3,h4,p,ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+img{
+    display: block;
+}
+button{
+    border: none;
+}
+input{
+    outline: none;
+}
