@@ -53,6 +53,9 @@ function App() {
 
   return (
     <div className="App">
+      {/* <header className='header__container-img'>
+        <img className='header__img' src='https://i.pinimg.com/originals/26/3f/8a/263f8a2cbfc9d6e90f37e32f88d3265d.gif' alt="" />
+      </header> */}
       <h1 className='app__title' >Rick and Morty Api</h1>
       <form className='search__container' onSubmit={handleSubmit}>
         <input 

@@ -1,27 +1,25 @@
+
+
 .filter__container{
-    background-color: rgb(40, 87, 2);
+    background-color: var(--background-cards);
     width: 300px;
     display: flex;
+    position: absolute;
+    z-index: 2;
     flex-direction: column;
     align-items: center ;
     justify-content: center;
     gap: 5px;
     margin: auto;
     border-radius: 10px ;
+    width: 50%;
+    /* transform: translateX(-80px) */
     /* padding: 5px; */
-}
-.search__input{
-    background-color: ;
-    padding: 0.6rem 1rem;
-    margin-right: 1rem;
-    font-size: 1rem;
-    color: black;
-    -webkit-text-stroke: 0.3px var(--blur-letter);
-    border-radius: 10px ;
-
 }
 .filter__list{
     cursor: pointer;
+    font-size: 20px;
+    text-align: left;
 }
 
 .filter__list:hover{
@@ -29,6 +27,5 @@
     font-family: 'wifty';
     text-shadow:   2px 2px 1px var(--blur-letter);
     -webkit-text-stroke: 0.5px black;
-    
-    font-size: 24px;
+    font-size: 28px;
 }
